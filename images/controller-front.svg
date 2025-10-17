@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Placeholder SVG — Front view of controller with labeled major controls -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Controller front diagram</title>
+  <desc id="desc">Simple illustration of an Xbox controller front showing left stick, right stick, D-pad, and ABXY buttons.</desc>
+  <rect x="40" y="80" width="720" height="320" rx="60" fill="#e6eefc" stroke="#cfe6ff" />
+  <!-- Left stick -->
+  <circle cx="230" cy="220" r="40" fill="#fff" stroke="#b3c9ff"/>
+  <text x="230" y="228" font-size="18" text-anchor="middle" fill="#1f2937">L</text>
+  <!-- D-pad -->
+  <rect x="140" y="260" width="60" height="12" rx="6" fill="#fff" stroke="#b3c9ff"/>
+  <rect x="170" y="230" width="12" height="60" rx="6" fill="#fff" stroke="#b3c9ff"/>
+  <text x="170" y="308" font-size="14" text-anchor="middle" fill="#1f2937">D‑Pad</text>
+  <!-- Right stick -->
+  <circle cx="560" cy="260" r="36" fill="#fff" stroke="#b3c9ff"/>
+  <text x="560" y="266" font-size="18" text-anchor="middle" fill="#1f2937">R</text>
+  <!-- ABXY buttons -->
+  <g>
+    <circle cx="660" cy="200" r="26" fill="#ffd6d6" stroke="#ffb3b3"/>
+    <text x="660" y="206" font-size="14" text-anchor="middle" fill="#7f1d1d">A</text>
+    <circle cx="700" cy="160" r="26" fill="#d6ffd6" stroke="#b3ffb3"/>
+    <text x="700" y="166" font-size="14" text-anchor="middle" fill="#165b16">B</text>
+    <circle cx="620" cy="160" r="26" fill="#d6d6ff" stroke="#b3b3ff"/>
+    <text x="620" y="166" font-size="14" text-anchor="middle" fill="#1d1d7f">X</text>
+    <circle cx="660" cy="120" r="26" fill="#fff0d6" stroke="#ffe4b3"/>
+    <text x="660" y="126" font-size="14" text-anchor="middle" fill="#5b3f16">Y</text>
+  </g>
+</svg>
