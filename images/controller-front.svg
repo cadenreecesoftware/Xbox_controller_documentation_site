@@ -3,44 +3,26 @@
   <title id="title">Xbox controller front — main controls labeled</title>
   <desc id="desc">Stylized front view of an Xbox controller showing left and right sticks, D-pad, ABXY buttons, triggers, bumpers, and center buttons, with a curved blue body outline.</desc>
 
-  <!-- Controller body (organic curved shape) -->
-  <path d="
-    M120 140
-    C100 100, 180 60, 300 60
-    C340 60, 370 90, 400 100
-    C430 90, 460 60, 500 60
-    C620 60, 700 100, 680 140
-    C710 180, 740 260, 700 340
-    C680 380, 620 400, 540 390
-    C480 380, 420 360, 400 360
-    C380 360, 320 380, 260 390
-    C180 400, 120 380, 100 340
-    C60 260, 90 180, 120 140
-    Z"
-    fill="#e6eefc" stroke="#cfe6ff" stroke-width="2"/>
+  <path d="M120 140 C100 100, 180 60, 300 60 C340 60, 370 90, 400 100 C430 90, 460 60, 500 60 C620 60, 700 100, 680 140 C710 180, 740 260, 700 340 C680 380, 620 400, 540 390 C480 380, 420 360, 400 360 C380 360, 320 380, 260 390 C180 400, 120 380, 100 340 C60 260, 90 180, 120 140 Z" fill="#e6eefc" stroke="#cfe6ff" stroke-width="2"/>
 
-  <!-- Left joystick -->
   <g transform="translate(230,170)">
     <circle cx="0" cy="0" r="40" fill="#eef4ff" stroke="#b3c9ff"/>
     <circle cx="0" cy="0" r="20" fill="#c7d2fe" stroke="#a5b4fc"/>
     <text x="0" y="70" text-anchor="middle" fill="#1f2937" font-size="14">Left Stick</text>
   </g>
 
-  <!-- D-pad -->
   <g transform="translate(280,260)">
     <rect x="-40" y="-10" width="80" height="20" rx="6" fill="#fff" stroke="#b3c9ff"/>
     <rect x="-10" y="-40" width="20" height="80" rx="6" fill="#fff" stroke="#b3c9ff"/>
     <text x="0" y="70" text-anchor="middle" fill="#1f2937" font-size="14">D-Pad</text>
   </g>
 
-  <!-- Right joystick -->
   <g transform="translate(520,260)">
     <circle cx="0" cy="0" r="36" fill="#eef4ff" stroke="#b3c9ff"/>
     <circle cx="0" cy="0" r="18" fill="#c7d2fe" stroke="#a5b4fc"/>
     <text x="0" y="64" text-anchor="middle" fill="#1f2937" font-size="14">Right Stick</text>
   </g>
 
-  <!-- ABXY buttons -->
   <g transform="translate(640,190)">
     <circle cx="-40" cy="0" r="22" fill="#d6d6ff" stroke="#b3b3ff"/>
     <circle cx="0" cy="-40" r="22" fill="#fff0d6" stroke="#ffe4b3"/>
@@ -49,7 +31,6 @@
     <text x="0" y="85" text-anchor="middle" fill="#1f2937" font-size="14">ABXY Buttons</text>
   </g>
 
-  <!-- Bumpers and triggers -->
   <g>
     <rect x="110" y="80" width="180" height="14" rx="7" fill="#f3f7ff" stroke="#b3c9ff"/>
     <text x="200" y="70" text-anchor="middle" fill="#1f2937" font-size="12">Left Trigger & Bumper</text>
@@ -57,7 +38,6 @@
     <text x="600" y="70" text-anchor="middle" fill="#1f2937" font-size="12">Right Trigger & Bumper</text>
   </g>
 
-  <!-- Center buttons -->
   <g>
     <circle cx="400" cy="150" r="14" fill="#ffffff" stroke="#b3c9ff"/>
     <text x="400" y="175" text-anchor="middle" font-size="12" fill="#16a34a">Xbox</text>
