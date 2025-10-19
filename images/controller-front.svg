@@ -1,28 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Placeholder SVG — Front view of controller with labeled major controls -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
-  <title id="title">Controller front diagram</title>
-  <desc id="desc">Simple illustration of an Xbox controller front showing left stick, right stick, D-pad, and ABXY buttons.</desc>
-  <rect x="40" y="80" width="720" height="320" rx="60" fill="#e6eefc" stroke="#cfe6ff" />
-  <!-- Left stick -->
-  <circle cx="230" cy="220" r="40" fill="#fff" stroke="#b3c9ff"/>
-  <text x="230" y="228" font-size="18" text-anchor="middle" fill="#1f2937">L</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Xbox Visual Layout</title>
+  <desc id="desc">Front layout diagram, not including button names.</desc>
+
+  <rect x="10" y="10" width="580" height="280" rx="18" fill="#fff" stroke="#e3eefc"/>
+
+  <!-- Left Joystick -->
+  <g transform="translate(130,100)">
+    <circle cx="0" cy="0" r="30" fill="#eef4ff" stroke="#d6e6ff"/>
+    <circle cx="0" cy="0" r="16" fill="#c7d2fe" stroke="#a5b4fc"/>
+  </g>
+
   <!-- D-pad -->
-  <rect x="140" y="260" width="60" height="12" rx="6" fill="#fff" stroke="#b3c9ff"/>
-  <rect x="170" y="230" width="12" height="60" rx="6" fill="#fff" stroke="#b3c9ff"/>
-  <text x="170" y="308" font-size="14" text-anchor="middle" fill="#1f2937">D‑Pad</text>
-  <!-- Right stick -->
-  <circle cx="560" cy="260" r="36" fill="#fff" stroke="#b3c9ff"/>
-  <text x="560" y="266" font-size="18" text-anchor="middle" fill="#1f2937">R</text>
-  <!-- ABXY buttons -->
+  <g transform="translate(180,170)">
+    <rect x="-50" y="-10" width="100" height="20" rx="8" fill="#f3f7ff" stroke="#d6e6ff"/>
+    <rect x="-10" y="-50" width="20" height="100" rx="8" fill="#f3f7ff" stroke="#d6e6ff"/>
+  </g>
+
+  <!-- Right Joystick -->
+  <g transform="translate(370,200)">
+    <circle cx="0" cy="0" r="30" fill="#eef4ff" stroke="#d6e6ff"/>
+    <circle cx="0" cy="0" r="16" fill="#c7d2fe" stroke="#a5b4fc"/>
+  </g>
+
+  <!-- ABXY Buttons -->
+  <g transform="translate(460,130)">
+    <circle cx="-45" cy="0" r="26" fill="#d6d6ff" stroke="#b3b3ff"/>
+    <text x="-45" y="5" text-anchor="middle" font-size="14" fill="#1d1d7f">X</text>
+    <circle cx="0" cy="-45" r="26" fill="#fff0d6" stroke="#ffe4b3"/>
+    <text x="0" y="-40" text-anchor="middle" font-size="14" fill="#5b3f16">Y</text>
+    <circle cx="45" cy="0" r="26" fill="#ffd6d6" stroke="#ffb3b3"/>
+    <text x="45" y="5" text-anchor="middle" font-size="14" fill="#7f1d1d">B</text>
+    <circle cx="0" cy="45" r="26" fill="#d6ffd6" stroke="#b3ffb3"/>
+    <text x="0" y="50" text-anchor="middle" font-size="14" fill="#165b16">A</text>
+  </g>
+
+  <!-- Bumpers and Triggers -->
   <g>
-    <circle cx="660" cy="200" r="26" fill="#ffd6d6" stroke="#ffb3b3"/>
-    <text x="660" y="206" font-size="14" text-anchor="middle" fill="#7f1d1d">A</text>
-    <circle cx="700" cy="160" r="26" fill="#d6ffd6" stroke="#b3ffb3"/>
-    <text x="700" y="166" font-size="14" text-anchor="middle" fill="#165b16">B</text>
-    <circle cx="620" cy="160" r="26" fill="#d6d6ff" stroke="#b3b3ff"/>
-    <text x="620" y="166" font-size="14" text-anchor="middle" fill="#1d1d7f">X</text>
-    <circle cx="660" cy="120" r="26" fill="#fff0d6" stroke="#ffe4b3"/>
-    <text x="660" y="126" font-size="14" text-anchor="middle" fill="#5b3f16">Y</text>
+    <rect x="40" y="18" width="140" height="14" rx="7" fill="#f3f7ff" stroke="#d6e6ff"/>
+    <rect x="420" y="18" width="140" height="14" rx="7" fill="#f3f7ff" stroke="#d6e6ff"/>
+    <rect x="50" y="40" width="120" height="18" rx="9" fill="#f3f7ff" stroke="#d6e6ff"/>
+    <rect x="430" y="40" width="120" height="18" rx="9" fill="#f3f7ff" stroke="#d6e6ff"/>
+  </g>
+
+  <!-- Center Buttons (Xbox, Start, Select) -->
+  <g>
+    <circle cx="300" cy="90" r="14" fill="#ffffff" stroke="#d6e6ff"/>
+    <text x="300" y="95" text-anchor="middle" font-size="12" fill="#16a34a">X</text>
+    <circle cx="260" cy="120" r="8" fill="#f3f7ff" stroke="#d6e6ff"/>
+    <circle cx="340" cy="120" r="8" fill="#f3f7ff" stroke="#d6e6ff"/>
   </g>
 </svg>
