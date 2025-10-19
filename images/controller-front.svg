@@ -3,7 +3,7 @@
   <title id="title">Xbox Visual Layout</title>
   <desc id="desc">Front layout diagram, not including button names.</desc>
 
-  <rect x="10" y="10" width="580" height="280" rx="18" fill="#fff" stroke="#e3eefc"/>
+  <rect x="10" y="10" width="580" height="280" rx="18" fill="#eff" stroke="#e3eefc"/>
 
   <!-- Left Joystick -->
   <g transform="translate(130,100)">
@@ -26,13 +26,9 @@
   <!-- ABXY Buttons -->
   <g transform="translate(460,130)">
     <circle cx="-45" cy="0" r="26" fill="#d6d6ff" stroke="#b3b3ff"/>
-    <text x="-45" y="5" text-anchor="middle" font-size="14" fill="#1d1d7f">X</text>
     <circle cx="0" cy="-45" r="26" fill="#fff0d6" stroke="#ffe4b3"/>
-    <text x="0" y="-40" text-anchor="middle" font-size="14" fill="#5b3f16">Y</text>
     <circle cx="45" cy="0" r="26" fill="#ffd6d6" stroke="#ffb3b3"/>
-    <text x="45" y="5" text-anchor="middle" font-size="14" fill="#7f1d1d">B</text>
     <circle cx="0" cy="45" r="26" fill="#d6ffd6" stroke="#b3ffb3"/>
-    <text x="0" y="50" text-anchor="middle" font-size="14" fill="#165b16">A</text>
   </g>
 
   <!-- Bumpers and Triggers -->
