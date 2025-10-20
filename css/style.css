@@ -191,3 +191,31 @@ input:focus,textarea:focus{outline:var(--focus)}
   .main-nav a{background:transparent}
   .main-nav a[aria-current="page"]{background:#003e8a}
 }
+
+/* --- Caption alignment tweaks --- */
+
+/* Adds equal top margin for all figure captions */
+.features-grid figure figcaption {
+  margin-top: 1rem; /* pushes captions down slightly */
+}
+
+/* Optionally, add a small top margin to Overview & Design headings for flush spacing */
+.overview h2,
+.design-notes h2 {
+  margin-top: 1.5rem; /* increase vertical rhythm */
+}
+
+/* For consistent vertical balance under each image */
+.features-grid figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/* Optional fine-tune if captions still appear uneven by browser */
+.features-grid figure img {
+  display: block;
+  margin-bottom: 0.5rem;
+}
