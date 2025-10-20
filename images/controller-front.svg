@@ -3,7 +3,7 @@
   <title id="title">Xbox Visual Layout</title>
   <desc id="desc">Front layout diagram, not including button names.</desc>
 
-  <rect x="10" y="10" width="580" height="280" rx="18" fill="#eff" stroke="#e3eefc"/>
+  <rect x="10" y="10" width="580" height="280" rx="18" fill="#fff" stroke="#e3eefc"/>
 
   <!-- Left Joystick -->
   <g transform="translate(130,100)">
