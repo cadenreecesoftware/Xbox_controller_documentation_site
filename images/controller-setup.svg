@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
-  <title id="title">Xbox controller sync button</title>
-  <desc id="desc">Topside view of Xbox controller, displaying sync button for controller pairing.</desc>
-  <rect x="8" y="8" width="684" height="284" rx="14" fill="#fff" stroke="#e6eefc"/>
-  <g transform="translate(140,60)">
-    <rect x="0" y="0" width="420" height="180" rx="12" fill="#f6fbff" stroke="#dceefe"/>
-   </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" role="img" aria-labelledby="title desc">
+  <title id="title">Xbox Controller Topside: Triggers, Bumpers, and Sync Button</title>
+  <desc id="desc">Simplified topside diagram showing LT/RT triggers, LB/RB bumpers, and the centered sync button on the top ridge of the controller.</desc>
+
+  <rect x="8" y="8" width="684" height="284" rx="14" fill="#ffffff" stroke="#e3eefc"/>
+
+  <g transform="translate(50,70)">
+
+    <path d="
+      M0,70
+      C40,10 130,0 190,0
+      L360,0
+      C420,0 510,10 550,70
+      L550,110
+      C510,70 420,60 350,60
+      L200,60
+      C130,60 40,70 0,110
+      Z"
+      fill="#f6fbff" stroke="#d6e6ff"/>
+
+    <rect x="30" y="28" width="490" height="20" rx="10" fill="#eef6ff" stroke="#dbeafe"/>
+
+    <g aria-label="Bumpers">
+      
+      <rect x="40" y="30" width="120" height="16" rx="8" fill="#f3f7ff" stroke="#d6e6ff"/>
+      <text x="100" y="43" text-anchor="middle" font-size="12" fill="#475569">LB</text>
+
+      <rect x="390" y="30" width="120" height="16" rx="8" fill="#f3f7ff" stroke="#d6e6ff"/>
+      <text x="450" y="43" text-anchor="middle" font-size="12" fill="#475569">RB</text>
+    </g>
+
+    <g aria-label="Triggers">
+
+      <path d="
+        M18,22
+        c8,-10 36,-16 74,-18
+        l0,18
+        c-32,1 -55,5 -62,12
+        c-7,-3 -11,-7 -12,-12 Z"
+        fill="#f3f7ff" stroke="#d6e6ff"/>
+      <text x="62" y="20" text-anchor="middle" font-size="12" fill="#475569">LT</text>
+
+      <path d="
+        M522,4
+        c38,2 66,8 74,18
+        c-1,5 -5,9 -12,12
+        c-7,-7 -30,-11 -62,-12
+        l0,-18 Z"
+        fill="#f3f7ff" stroke="#d6e6ff"/>
+      <text x="538" y="20" text-anchor="middle" font-size="12" fill="#475569">RT</text>
+    </g>
+
+    <g aria-label="Sync Button" transform="translate(275,14)">
+      <circle cx="25" cy="18" r="10" fill="#ffffff" stroke="#a5b4fc"/>
+      <path d="M20,14 q5,-5 10,0" fill="none" stroke="#6366f1" stroke-width="1"/>
+      <path d="M22,16 q3,-3 6,0" fill="none" stroke="#6366f1" stroke-width="1"/>
+      <circle cx="25" cy="18" r="1.6" fill="#6366f1"/>
+    </g>
+
+    <line x1="300" y1="34" x2="300" y2="70" stroke="#d6e6ff"/>
+    <text x="300" y="88" text-anchor="middle" font-size="14" fill="#475569">Sync Button</text>
+
+    <line x1="100" y1="46" x2="100" y2="90" stroke="#d6e6ff"/>
+    <text x="100" y="108" text-anchor="middle" font-size="14" fill="#475569">LB</text>
+
+    <line x1="450" y1="46" x2="450" y2="90" stroke="#d6e6ff"/>
+    <text x="450" y="108" text-anchor="middle" font-size="14" fill="#475569">RB</text>
+
+    <line x1="60" y1="18" x2="60" y2="-6" stroke="#d6e6ff"/>
+    <text x="60" y="-12" text-anchor="middle" font-size="12" fill="#475569">LT</text>
+
+    <line x1="540" y1="18" x2="540" y2="-6" stroke="#d6e6ff"/>
+    <text x="540" y="-12" text-anchor="middle" font-size="12" fill="#475569">RT</text>
+  </g>
 </svg>
